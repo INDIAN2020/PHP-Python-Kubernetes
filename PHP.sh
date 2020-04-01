@@ -7,7 +7,7 @@
 #Author: Gogula <gogula.sivannarayana@gmail.com>
 #License: GPL3
 
-install_PHP(){
+__install_PHP(){
     if [[ "${PHP_VERSIONS}" != "" ]]; then
     	# sudo apt install -y php-mysql php-fpm php-curl php-gd php-mbstring php-gettext php-token-stream php-gmagick php-tokenizer php-xdebug php-apcu php-memcache php-zip
         for version in $PHP_VERSIONS; do
