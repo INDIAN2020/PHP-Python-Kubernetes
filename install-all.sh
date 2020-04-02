@@ -19,12 +19,12 @@ TERRAFORM="https://github.com/INDIAN2020/php-python-kubernetes/blob/master/terra
 # ----------- VARIABLES FOR DIFFERENT VERSIONS ------------------- #
 
 if [ "$(whoami)" != "root" ]; then
-    echo "$(tput setaf 4)$(tput bold)This script must be run as root.$(tput sgr 0)"
-    exit 2
+    echo "$(tput setaf 4)$(tput bold)This script must be run as root.$(tput sgr 0)";
+    exit 2;
 else
-	echo "-------------------------------------"
-	echo "PHP Dev + Python Dev + Kubernetes Dev"
-	echo "-------------------------------------"
+	echo "-----------------------------------------------------";
+	echo "PHP Dev + Python Dev + Kubernetes Dev + Terraform Dev";
+	echo "-----------------------------------------------------";
 fi
 
 __install_PHP(){
