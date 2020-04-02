@@ -15,6 +15,7 @@ LINUX_BREW="https://raw.githubusercontent.com/Homebrew/install/master/install.sh
 MULTI_PHP="https://github.com/INDIAN2020/PHP-Python-Kubernetes/blob/master/php-multi.sh";
 MULTI_PYTHON="https://github.com/INDIAN2020/php-python-kubernetes/blob/master/python-multi.sh";
 KUBERNETES="https://github.com/INDIAN2020/php-python-kubernetes/blob/master/kubernetes.sh";
+TERRAFORM="https://github.com/INDIAN2020/php-python-kubernetes/blob/master/terraform.sh";
 # ----------- VARIABLES FOR DIFFERENT VERSIONS ------------------- #
 
 if [ "$(whoami)" != "root" ]; then
@@ -38,6 +39,9 @@ __install_Kubernetes(){
 	sh -c "$(curl -fsSL $KUBERNETES)";
 }
 
+__install_Terraform(){
+	sh -c "$(curl -fsSL $TERRAFORM)";
+}
 
 # ---------------------------------------------------------------- #
 # -------------------  DO NOT CHANGE BELOW  ---------------------- #
