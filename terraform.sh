@@ -5,7 +5,7 @@
 #Description: PHP Dev + Python Dev + Kubernetes Dev
 #Brief: In development
 #Author: Gogula <gogula.sivannarayana@gmail.com>
-#License: GPL3
+#License: MIT
 
 LATEST_URL=$(curl -sL https://releases.hashicorp.com/terraform/index.json | jq -r '.versions[].builds[].url' | sort -t. -k 1,1n -k 2,2n -k 3,3n -k 4,4n | egrep -v 'rc|beta' | egrep 'linux.*amd64' |tail -1)
 curl ${LATEST_URL} > /tmp/terraform.zip
