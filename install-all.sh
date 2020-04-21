@@ -5,7 +5,7 @@
 #Description: PHP Dev + Python Dev + Kubernetes Dev
 #Brief: In development
 #Author: Gogula <gogula.sivannarayana@gmail.com>
-#License: GPL3
+#License: MIT
 
 # ----------- VARIABLES FOR DIFFERENT VERSIONS ------------------- #
 PHP_VERSIONS="5.6 7.0 7.1 7.2 7.3 7.4";
