@@ -5,7 +5,7 @@
 #Description: PHP Dev + Python Dev + Kubernetes Dev
 #Brief: In development
 #Author: Gogula <gogula.sivannarayana@gmail.com>
-#License: GPL3
+#License: MIT
 
 if [[ "${PHP_VERSIONS}" != "" ]]; then
 	# sudo apt install -y php-mysql php-fpm php-curl php-gd php-mbstring php-gettext php-token-stream php-gmagick php-tokenizer php-xdebug php-apcu php-memcache php-zip
