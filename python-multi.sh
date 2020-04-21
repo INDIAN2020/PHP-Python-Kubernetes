@@ -5,7 +5,7 @@
 #Description: PHP Dev + Python Dev + Kubernetes Dev
 #Brief: In development
 #Author: Gogula <gogula.sivannarayana@gmail.com>
-#License: GPL3
+#License: MIT
 
 if [[ "${PYTHON_VERSIONS}" != "" ]]; then
     for version in $PYTHON_VERSIONS; do
