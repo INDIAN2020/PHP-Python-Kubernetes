@@ -2,7 +2,7 @@
 # set -xv;
 
 #Name: Script v1.0
-#Description: PHP Dev + Python Dev + Kubernetes Dev
+#Description: PHP Multiple versions installation
 #Brief: In development
 #Author: Gogula <gogula.sivannarayana@gmail.com>
 #License: MIT
