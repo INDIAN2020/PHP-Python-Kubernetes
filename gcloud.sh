@@ -11,6 +11,8 @@
 LATEST_URL=$(curl -sL https://cloud.google.com/sdk/docs/quickstart-linux | grep "linux-x86_64.tar.gz" | sed 's/.*href="//' | sed 's/".*//' | head -10);
 #Download the latest to temp folder
 sudo wget -c ${LATEST_URL} -O - | sudo tar -xz -C ${HOME}
+#Change permissions to 755
+sudo chmod 755 ${HOME}/google-cloud-sdk -R
 #Add Cloud SDK tools to your path
 ./google-cloud-sdk/install.sh
 #Run gcloud init to initialize the SDK:
