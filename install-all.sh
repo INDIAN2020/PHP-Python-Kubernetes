@@ -14,6 +14,7 @@ OH_MY_ZSH="https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools
 LINUX_BREW="https://raw.githubusercontent.com/Homebrew/install/master/install.sh";
 MULTI_PHP="https://github.com/INDIAN2020/PHP-Python-Kubernetes/blob/master/php-multi.sh";
 MULTI_PYTHON="https://github.com/INDIAN2020/php-python-kubernetes/blob/master/python-multi.sh";
+GCLOUD="https://github.com/INDIAN2020/php-python-gcloud-kubernetes-terraform/blob/master/gcloud.sh";
 KUBERNETES="https://github.com/INDIAN2020/php-python-kubernetes/blob/master/kubernetes.sh";
 TERRAFORM="https://github.com/INDIAN2020/php-python-kubernetes/blob/master/terraform.sh";
 # ----------- VARIABLES FOR DIFFERENT VERSIONS ------------------- #
@@ -33,6 +34,10 @@ __install_PHP(){
 
 __install_Python(){
 	sh -c "$(curl -fsSL $MULTI_PYTHON)";
+}
+
+__install_gcloud(){
+	sh -c "$(curl -fsSL $GCLOUD)";
 }
 
 __install_Kubernetes(){
