@@ -23,9 +23,9 @@ if [ "$(whoami)" != "root" ]; then
     echo "$(tput setaf 4)$(tput bold)This script must be run as root.$(tput sgr 0)";
     exit 2;
 else
-	echo "-----------------------------------------------------";
-	echo "PHP Dev + Python Dev + Kubernetes Dev + Terraform Dev";
-	echo "-----------------------------------------------------";
+	echo "---------------------------------------------------------------------";
+	echo "PHP Dev + Python Dev + GCloud Dev + Kubernetes Dev + Terraform Dev   ";
+	echo "---------------------------------------------------------------------";
 fi
 
 __install_PHP(){
